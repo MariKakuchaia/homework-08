@@ -16,13 +16,13 @@
 .car-one{
     position: absolute;
     z-index: 5;
-    top: 230px;
+    top: 300px;
     width: 400px;
     height:350px; 
-    background-image: url(image/car6.png);
+    background-image: url(image/car1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    animation: move-car1 linear 6s;
+    animation: move-car1 linear 7s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -37,10 +37,10 @@
 .car-two{
     position: absolute;
     z-index: 6;
-    top: 400px;
+    top: 440px;
     height: 350px;
     width: 450px;
-    background-image: url(image/car6.png);
+    background-image: url(image/car2\ \(2\).png);
     background-repeat: no-repeat;
     background-size: cover;
     animation: move-car2 linear 7s;
@@ -54,4 +54,5 @@
     100%{
         left:740px;
     }
+
 }
